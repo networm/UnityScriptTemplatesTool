@@ -37,7 +37,7 @@ namespace Unity3dScriptTemplatesTool
                 foreach (var file in scriptTemplates)
                 {
                     string fileName = Path.GetFileName(file);
-                    Console.WriteLine(fileName);
+                    Console.WriteLine("\t" + fileName);
 
                     string text = File.ReadAllText(file);
 
